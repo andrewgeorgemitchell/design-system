@@ -1,11 +1,11 @@
 {
-  "name": "design-system",
+  "name": "design-system-monorepo",
   "version": "0.0.1",
   "description": "Design system monorepo for building my personal reusable frontend building blocks",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrewgeorgemitchell/design-system.git"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andrewgeorgemitchell/design-system/issues"
   },
-  "homepage": "https://github.com/andrewgeorgemitchell/design-system#readme"
+  "homepage": "https://github.com/andrewgeorgemitchell/design-system#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
