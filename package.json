@@ -1,7 +1,6 @@
 {
   "name": "design-system",
-  "packageManager": "yarn@3.2.1",
-  "description": "monorepo for frontend utils",
+  "description": "Monorepo for frontend utils",
   "version": "1.0.0",
   "private": true,
   "repository": {
@@ -19,5 +18,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.18"
   }
 }
