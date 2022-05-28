@@ -1,4 +1,23 @@
 {
   "name": "design-system",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "description": "monorepo for frontend utils",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewgeorgemitchell/design-system.git"
+  },
+  "author": "andrewgeorgemitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewgeorgemitchell/design-system/issues"
+  },
+  "homepage": "https://github.com/andrewgeorgemitchell/design-system#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
