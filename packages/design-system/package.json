@@ -2,9 +2,8 @@
   "name": "@andrewgeorgemitchell/design-system",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "rm -rf dist && tsc && vite build",
-    "preview": "vite preview",
+    "commit": "cz",
     "semantic-release": "semantic-release --no-ci"
   },
   "dependencies": {
