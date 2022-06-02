@@ -1,5 +1,5 @@
 {
-  "name": "design-system",
+  "name": "@andrewgeorgemitchell/design-system",
   "description": "Monorepo for frontend utils",
   "version": "1.0.0",
   "private": true,
@@ -9,17 +9,31 @@
   },
   "author": "andrewgeorgemitchell",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrewgeorgemitchell/design-system/issues"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://github.com/andrewgeorgemitchell/design-system#readme",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "cz",
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap",
+    "semantic-release": "lerna run --scope @andrewgeorgemitchell/design-system semantic-release --stream"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/config-lerna-scopes": "^17.0.2",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^5.0.0",
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5",
     "yarn": "^1.22.18"
   }
 }
