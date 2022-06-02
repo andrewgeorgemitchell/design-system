@@ -6,7 +6,9 @@
     "commit": "cz",
     "semantic-release": "semantic-release --no-ci"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
