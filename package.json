@@ -19,7 +19,8 @@
     "commit": "cz",
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
-    "semantic-release": "lerna run --scope @andrewgeorgemitchell/design-system semantic-release --stream"
+    "semantic-release": "lerna run --scope @andrewgeorgemitchell/design-system semantic-release --stream",
+    "lint": "eslint './**/*.tsx' './**/*.ts' './**/*.js' './**/*.json'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
@@ -29,11 +30,25 @@
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
     "lerna": "^5.0.0",
+    "prettier": "^2.6.2",
     "semantic-release": "^19.0.2",
     "semantic-release-monorepo": "^7.0.5",
     "yarn": "^1.22.18"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }

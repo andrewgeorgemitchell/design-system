@@ -1,3 +1,21 @@
 {
-  
+  "eslint.run": "onSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.prettier": true
+  },
+  "eslint.workingDirectories": [
+    "./packages/design-system"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true
 }
