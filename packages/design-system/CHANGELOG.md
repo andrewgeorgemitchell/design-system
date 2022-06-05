@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.1.0...v1.2.0) (2022-06-05)
+
+
+### Features
+
+* **design-system:** add box flex & simple grid components ([e388b74](https://github.com/andrewgeorgemitchell/design-system/commit/e388b74d69732787b55ec7d46eadf319625bc704))
+* **design-system:** setup base stitches them with spacing/sizing/breakpoints ([c4d4d36](https://github.com/andrewgeorgemitchell/design-system/commit/c4d4d3665348ad16acb6c73805de169326037cb7))
+
 # [1.1.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.0.0...v1.1.0) (2022-06-02)
 
 
