@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/andrewgeorgemitchell/design-system/compare/v1.3.1...v1.3.2) (2022-06-05)
+
+
+### Bug Fixes
+
+* **design-system:** fix build to allow packages to be resolved properly ([127092a](https://github.com/andrewgeorgemitchell/design-system/commit/127092aa1cbf3f636b393954c54fe2f0724a6db5))
+
 ## [1.3.1](https://github.com/andrewgeorgemitchell/design-system/compare/v1.3.0...v1.3.1) (2022-06-05)
 
 
