@@ -20,6 +20,8 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "semantic-release": "lerna run --scope @andrewgeorgemitchell/design-system semantic-release --stream",
+    "build:design-system": "lerna run --scope @andrewgeorgemitchell/design-system build",
+    "publish:design-system": "lerna run --scope @andrewgeorgemitchell/design-system publish",
     "lint": "eslint './**/*.tsx' './**/*.ts' './**/*.js' './**/*.json'"
   },
   "devDependencies": {
