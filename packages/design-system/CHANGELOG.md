@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.4.0...v1.5.0) (2022-06-05)
+
+
+### Features
+
+* **design-system:** add container component & refactor other component structure ([5f1701a](https://github.com/andrewgeorgemitchell/design-system/commit/5f1701abcad24ef8f4fa4e80f9723fa6a4c6ab3d))
+
 # [1.4.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.3.2...v1.4.0) (2022-06-05)
 
 
