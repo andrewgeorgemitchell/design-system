@@ -6,12 +6,13 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.es.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
     }
   },
-  "main": "./dist/index.es.js",
+  "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
-  "types": "./dist/types.d.ts",
+  "types": "./dist/design-system.d.ts",
   "files": [
     "dist",
     "README.md",
