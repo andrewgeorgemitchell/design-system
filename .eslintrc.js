@@ -29,5 +29,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-unused-expressions': 'off',
+    'react/require-default-props': 'off',
+    'no-undef': 'off',
   },
 }
