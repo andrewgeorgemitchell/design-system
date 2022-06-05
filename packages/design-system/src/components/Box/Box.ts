@@ -2,7 +2,7 @@ import { type CSS, styled } from '~/theme'
 import { type As } from '~/types'
 
 export interface BoxProps {
-  as: As
+  as?: As
   css?: CSS
   children?: React.ReactNode
 }
