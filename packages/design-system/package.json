@@ -1,6 +1,6 @@
 {
   "name": "@andrewgeorgemitchell/design-system",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "publishConfig": {
     "@andrewgeorgemitchell:registry": "https://npm.pkg.github.com"
   },

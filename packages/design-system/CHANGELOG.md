@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/andrewgeorgemitchell/design-system/compare/v1.6.0...v1.6.1) (2022-06-05)
+
+
+### Bug Fixes
+
+* **design-system:** add text component to exports ([e993ff3](https://github.com/andrewgeorgemitchell/design-system/commit/e993ff3bdd75b6ac213ac7f07b3d214c7b0e13a6))
+
 # [1.6.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.5.1...v1.6.0) (2022-06-05)
 
 
