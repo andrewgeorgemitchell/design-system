@@ -1,51 +1,25 @@
 import { type CSS, styled } from '~/theme'
 import { type VariantProps, type As, NumericalSizingLiteral } from '~/types'
+import {
+  FlexGapVariant,
+  FlexDirectionVariant,
+  FlexJustifyContentVariant,
+  FlexAlignItemsVariant,
+} from './Flex.variants'
 
 const StyledBase = styled('div', {
   display: 'flex',
   variants: {
-    direction: {
-      row: {
-        flexDirection: 'row',
-      },
-      column: {
-        flexDirection: 'column',
-      },
-    },
-    justifyContent: {
-      start: {
-        justifyContent: 'flex-start',
-      },
-      end: {
-        justifyContent: 'flex-end',
-      },
-      center: {
-        justifyContent: 'center',
-      },
-      between: {
-        justifyContent: 'space-between',
-      },
-      around: {
-        justifyContent: 'space-around',
-      },
-    },
-    alignItems: {
-      start: {
-        alignItems: 'flex-start',
-      },
-      end: {
-        alignItems: 'flex-end',
-      },
-      center: {
-        alignItems: 'center',
-      },
-      baseline: {
-        alignItems: 'baseline',
-      },
-      stretch: {
-        alignItems: 'stretch',
-      },
-    },
+    direction: FlexDirectionVariant,
+    justifyContent: FlexJustifyContentVariant,
+    alignItems: FlexAlignItemsVariant,
+    gap: FlexGapVariant,
+  },
+  defaultVariant: {
+    direction: 'row',
+    justifyContent: 'start',
+    alignItems: 'start',
+    gap: null,
   },
 })
 
@@ -82,16 +56,16 @@ export const Flex = ({
   css,
   as,
   children,
+  ...props
 }: FlexProps) => (
   <StyledBase
     direction={direction}
     justifyContent={justifyContent}
     alignItems={alignItems}
-    css={{
-      ...(gap && { gap: `$${gap}` }),
-      ...css,
-    }}
+    gap={gap}
+    css={css}
     as={as}
+    {...props}
   >
     {children}
   </StyledBase>

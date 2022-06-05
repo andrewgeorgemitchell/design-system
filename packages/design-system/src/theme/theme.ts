@@ -96,6 +96,10 @@ export const { styled, css, getCssText, config } = createStitches({
       h2: 'Roboto',
       h3: 'Roboto',
       h4: 'Roboto',
+      body: 'Roboto',
+      subtitle: 'Roboto',
+      button: 'Roboto',
+      caption: 'Roboto',
     },
     borderWidths: {},
     borderStyles: {},
@@ -129,6 +133,14 @@ export const { styled, css, getCssText, config } = createStitches({
       lineHeight: `$${variant}`,
       letterSpacing: `$${variant}`,
       fontFamily: `$${variant}`,
+    }),
+    marginX: (value: Stitches.PropertyValue<'marginLeft'>) => ({
+      marginLeft: value,
+      marginRight: value,
+    }),
+    marginY: (value: Stitches.PropertyValue<'marginTop'>) => ({
+      marginTop: value,
+      marginBottom: value,
     }),
   },
 })

@@ -14,6 +14,9 @@ export const globalStyles = globalCss({
     boxSizing: 'border-box',
     fontFamily: 'Roboto',
   },
+  '*': {
+    boxSizing: 'border-box',
+  },
   h1: {
     margin: 0,
   },
