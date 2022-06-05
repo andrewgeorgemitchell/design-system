@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.2.0...v1.3.0) (2022-06-05)
+
+
+### Features
+
+* **design-system:** add README.md ([575831f](https://github.com/andrewgeorgemitchell/design-system/commit/575831ff2b90e823a8e1d8f12a22804fab0d473c))
+
 # [1.2.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.1.0...v1.2.0) (2022-06-05)
 
 
