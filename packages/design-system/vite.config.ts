@@ -15,7 +15,7 @@ export default defineConfig({
     outDir: './dist',
     lib: {
       entry: './src',
-      name: 'design-system',
+      name: 'DesignSystem',
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
