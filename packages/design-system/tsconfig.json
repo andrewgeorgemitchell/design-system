@@ -16,6 +16,8 @@
     "importHelpers": true,
     "emitDecoratorMetadata": false,
     "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {

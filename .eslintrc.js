@@ -32,5 +32,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'no-undef': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'no-shadow': 'off',
+    'no-unused-vars': 'off',
   },
 }
