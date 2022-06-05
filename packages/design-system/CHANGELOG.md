@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/andrewgeorgemitchell/design-system/compare/v1.5.0...v1.5.1) (2022-06-05)
+
+
+### Bug Fixes
+
+* **design-system:** fix type issues ([86bcc32](https://github.com/andrewgeorgemitchell/design-system/commit/86bcc32b7709cdeb95a8d034020e42840b129d7c))
+
 # [1.5.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.4.0...v1.5.0) (2022-06-05)
 
 
