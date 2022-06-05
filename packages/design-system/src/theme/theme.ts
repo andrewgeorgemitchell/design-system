@@ -70,7 +70,16 @@ export const { styled, css, getCssText, config } = createStitches({
     xl: '(min-width: 1200px)',
     xxl: '(min-width: 1600px)',
   },
-  utils: {},
+  utils: {
+    marginX: (value: Stitches.PropertyValue<'marginLeft'>) => ({
+      marginLeft: value,
+      marginRight: value,
+    }),
+    marginY: (value: Stitches.PropertyValue<'marginTop'>) => ({
+      marginTop: value,
+      marginBottom: value,
+    }),
+  },
 })
 
 export type CSS = Stitches.CSS<typeof config>

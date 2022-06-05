@@ -7,6 +7,9 @@ export const globalStyles = globalCss({
   body: {
     boxSizing: 'border-box',
   },
+  '*': {
+    boxSizing: 'border-box',
+  },
   h1: {
     margin: 0,
   },
