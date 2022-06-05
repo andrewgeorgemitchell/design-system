@@ -1,4 +1,5 @@
 import { type CSS } from '~/theme'
+import { type NumericalSizingLiteral } from '~/types'
 
 export enum TextVariantEnum {
   H1 = 'h1',
@@ -33,5 +34,32 @@ export const TextVariant: Record<TextVariantLiteral, CSS> = {
   },
   caption: {
     textStyles: 'caption',
+  },
+}
+
+export const TextGutterBottomVariant: Record<NumericalSizingLiteral, CSS> = {
+  1: {
+    paddingBottom: '$1',
+  },
+  2: {
+    paddingBottom: '$2',
+  },
+  3: {
+    paddingBottom: '$3',
+  },
+  4: {
+    paddingBottom: '$4',
+  },
+  5: {
+    paddingBottom: '$5',
+  },
+  6: {
+    paddingBottom: '$6',
+  },
+  7: {
+    paddingBottom: '$7',
+  },
+  8: {
+    paddingBottom: '$8',
   },
 }

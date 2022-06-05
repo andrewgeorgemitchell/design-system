@@ -1,12 +1,17 @@
 import { styled, type CSS } from '~/theme'
-import { type As } from '~/types'
-import { TextVariant, type TextVariantLiteral } from './Text.variants'
+import { type As, type NumericalSizingLiteral } from '~/types'
+import {
+  TextVariant,
+  type TextVariantLiteral,
+  TextGutterBottomVariant,
+} from './Text.variants'
 
 const StyledBase = styled('p', {
   color: '$gray12',
   fontFamily: '$fontFamily',
   variants: {
     variant: TextVariant,
+    gutterBottom: TextGutterBottomVariant,
   },
   defaultVariants: {
     variant: 'h1',
@@ -15,6 +20,7 @@ const StyledBase = styled('p', {
 
 export interface TextProps {
   variant?: TextVariantLiteral
+  gutterBottom?: NumericalSizingLiteral
   css?: CSS
   children?: React.ReactNode
   as?: As
@@ -32,8 +38,21 @@ export interface TextProps {
  * @param {TextProps} TextProps
  * @returns {JSX.Element}
  */
-export const Text = ({ variant, children, css, as }: TextProps) => (
-  <StyledBase variant={variant} css={css} as={as}>
+export const Text = ({
+  variant,
+  gutterBottom,
+  children,
+  css,
+  as,
+  ...props
+}: TextProps) => (
+  <StyledBase
+    variant={variant}
+    gutterBottom={gutterBottom}
+    css={css}
+    as={as}
+    {...props}
+  >
     {children}
   </StyledBase>
 )
