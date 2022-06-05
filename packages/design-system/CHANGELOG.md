@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/andrewgeorgemitchell/design-system/compare/v1.5.1...v1.6.0) (2022-06-05)
+
+
+### Features
+
+* **design-system:** add gutterBottom prop to text component ([102896e](https://github.com/andrewgeorgemitchell/design-system/commit/102896e47cdc1f5dab954ea8d604fe00faed0011))
+* **design-system:** add text component and add roboto font ([ef97389](https://github.com/andrewgeorgemitchell/design-system/commit/ef973896990b2da3007eecc86a35dab59f33010e)), closes [#4](https://github.com/andrewgeorgemitchell/design-system/issues/4)
+
 ## [1.5.1](https://github.com/andrewgeorgemitchell/design-system/compare/v1.5.0...v1.5.1) (2022-06-05)
 
 
