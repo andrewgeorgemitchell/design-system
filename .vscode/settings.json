@@ -17,5 +17,9 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "javascript.validate.enable": true,
-  "typescript.validate.enable": true
+  "typescript.validate.enable": true,
+  "cSpell.words": [
+    "vite",
+    "vitejs"
+  ]
 }

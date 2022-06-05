@@ -64,11 +64,11 @@ export const { styled, css, getCssText, config } = createStitches({
     transitions: {},
   },
   media: {
-    sm: '@media (min-width: 576px)',
-    md: '@media (min-width: 768px)',
-    lg: '@media (min-width: 992px)',
-    xl: '@media (min-width: 1200px)',
-    xxl: '@media (min-width: 1600px)',
+    sm: '(min-width: 576px)',
+    md: '(min-width: 768px)',
+    lg: '(min-width: 992px)',
+    xl: '(min-width: 1200px)',
+    xxl: '(min-width: 1600px)',
   },
   utils: {},
 })
