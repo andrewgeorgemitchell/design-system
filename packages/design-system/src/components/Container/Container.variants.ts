@@ -1,5 +1,5 @@
 import { type CSS } from '~/theme'
-import { type NumericVariantLiteral } from '~/types'
+import { type NumericalSizingLiteral } from '~/types'
 
 export enum ContainerMaxWidthVariantEnum {
   SM = 'sm',
@@ -32,7 +32,7 @@ export const ContainerMaxWidthVariant: Record<
   },
 }
 
-export const ContainerSpacingVariant: Record<NumericVariantLiteral, CSS> = {
+export const ContainerSpacingVariant: Record<NumericalSizingLiteral, CSS> = {
   1: {
     padding: '$1',
   },

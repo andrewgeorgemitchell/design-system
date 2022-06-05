@@ -1,10 +1,11 @@
 import { type CSS } from '~/theme'
+import { type NumericalSizingLiteral } from '~/types'
 
 export enum FlexDirectionVariantEnum {
   ROW = 'row',
-  ROW_REVERSE = 'row-reverse',
+  ROW_REVERSE = 'rowReverse',
   COLUMN = 'column',
-  COLUMN_REVERSE = 'column-reverse',
+  COLUMN_REVERSE = 'columnReverse',
 }
 
 export type FlexDirectionVariantLiteral = `${FlexDirectionVariantEnum}`
@@ -85,7 +86,7 @@ export const FlexAlignItemsVariant: Record<FlexAlignItemsVariantLiteral, CSS> =
     },
   }
 
-export const FlexGapVariant: Record<NumericVariantLiteral, CSS> = {
+export const FlexGapVariant: Record<NumericalSizingLiteral, CSS> = {
   1: {
     gap: '$1',
   },
