@@ -9,7 +9,8 @@
     "commit": "cz",
     "semantic-release": "semantic-release --no-ci",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "npm publish"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8"
