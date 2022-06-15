@@ -1,5 +1,4 @@
-import { type CSS } from '~/theme'
-import { type NumericalSizingLiteral } from '~/types'
+import type { CSS, NumericalSizingLiteral } from '~/types'
 
 export enum FlexDirectionVariantEnum {
   ROW = 'row',

@@ -1,5 +1,5 @@
-import { type CSS, styled } from '~/theme'
-import { type As } from '~/types'
+import { styled } from '~/theme'
+import type { As, CSS } from '~/types'
 
 export interface BoxProps {
   as?: As

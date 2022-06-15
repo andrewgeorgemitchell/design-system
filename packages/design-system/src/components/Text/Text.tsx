@@ -1,5 +1,5 @@
-import { styled, type CSS } from '~/theme'
-import { type As, type NumericalSizingLiteral } from '~/types'
+import { styled } from '~/theme'
+import type { CSS, As, NumericalSizingLiteral } from '~/types'
 import {
   TextVariant,
   type TextVariantLiteral,

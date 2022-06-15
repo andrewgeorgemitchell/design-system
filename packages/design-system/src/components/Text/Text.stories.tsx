@@ -1,13 +1,13 @@
-import { ComponentMeta } from '@storybook/react'
+import { Meta, Story } from '@storybook/react'
 import { Text as TextComp, TextProps } from './Text'
 
 export default {
   title: 'Text',
   component: TextComp,
   argTypes: {},
-} as ComponentMeta<typeof TextComp>
+} as Meta<typeof TextComp>
 
-const TemplateText = (args: TextProps) => <TextComp {...args} />
+const TemplateText: Story<TextProps> = (args) => <TextComp {...args} />
 
 export const Text = TemplateText.bind({})
 

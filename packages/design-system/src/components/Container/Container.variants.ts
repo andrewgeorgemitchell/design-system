@@ -1,5 +1,4 @@
-import { type CSS } from '~/theme'
-import { type NumericalSizingLiteral } from '~/types'
+import type { NumericalSizingLiteral, CSS } from '~/types'
 
 export enum ContainerMaxWidthVariantEnum {
   SM = 'sm',

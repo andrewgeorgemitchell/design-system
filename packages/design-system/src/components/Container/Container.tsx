@@ -1,5 +1,5 @@
-import { type As, type NumericalSizingLiteral } from '~/types'
-import { type CSS, styled } from '~/theme'
+import type { CSS, As, NumericalSizingLiteral } from '~/types'
+import { styled } from '~/theme'
 import {
   ContainerMaxWidthVariant,
   ContainerSpacingVariant,

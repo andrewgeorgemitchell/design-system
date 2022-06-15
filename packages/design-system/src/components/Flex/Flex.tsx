@@ -1,5 +1,5 @@
-import { type CSS, styled } from '~/theme'
-import { type VariantProps, type As, NumericalSizingLiteral } from '~/types'
+import { styled } from '~/theme'
+import type { CSS, VariantProps, As, NumericalSizingLiteral } from '~/types'
 import {
   FlexGapVariant,
   FlexDirectionVariant,
