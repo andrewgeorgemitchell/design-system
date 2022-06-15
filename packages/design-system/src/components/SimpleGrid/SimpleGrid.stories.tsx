@@ -1,4 +1,4 @@
-import { ComponentMeta } from '@storybook/react'
+import { Meta, Story } from '@storybook/react'
 
 import { SimpleGrid as SimpleGridComp, SimpleGridProps } from './SimpleGrid'
 
@@ -6,9 +6,9 @@ export default {
   title: 'SimpleGrid',
   component: SimpleGridComp,
   argTypes: {},
-} as ComponentMeta<typeof SimpleGridComp>
+} as Meta<typeof SimpleGridComp>
 
-const TemplateSimpleGrid = (args: SimpleGridProps) => (
+const TemplateSimpleGrid: Story<SimpleGridProps> = (args) => (
   <SimpleGridComp {...args} />
 )
 export const SimpleGrid = TemplateSimpleGrid.bind({})
