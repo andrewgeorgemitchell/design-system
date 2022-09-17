@@ -4,7 +4,9 @@ type ThemeProviderProps = {
   children: React.ReactNode
 }
 
-export const ThemeProvider = ({ children }: ThemeProviderProps) => {
+export const ThemeProvider = ({
+  children,
+}: ThemeProviderProps): JSX.Element => {
   globalStyles()
-  return children
+  return <>{children}</>
 }
