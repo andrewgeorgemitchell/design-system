@@ -1,4 +1,4 @@
-import { ComponentMeta } from '@storybook/react'
+import { Story, Meta } from '@storybook/react'
 
 import { Box as BoxComp, BoxProps } from './Box'
 
@@ -6,9 +6,9 @@ export default {
   title: 'Box',
   component: BoxComp,
   argTypes: {},
-} as ComponentMeta<typeof BoxComp>
+} as Meta
 
-const TemplateBox = (args: BoxProps) => <BoxComp {...args} />
+const TemplateBox: Story<BoxProps> = (args) => <BoxComp {...args} />
 export const Box = TemplateBox.bind({})
 
 Box.args = {

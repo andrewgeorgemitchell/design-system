@@ -1,8 +1,10 @@
 {
   "name": "@andrewgeorgemitchell/design-system",
   "version": "1.6.1",
-  "publishConfig": {
-    "@andrewgeorgemitchell:registry": "https://npm.pkg.github.com"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewgeorgemitchell/design-system.git"
   },
   "exports": {
     ".": {
@@ -21,11 +23,8 @@
   ],
   "scripts": {
     "build": "rm -rf dist && tsc && vite build",
-    "commit": "cz",
-    "semantic-release": "semantic-release --no-ci",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "publish": "npm publish"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8"
