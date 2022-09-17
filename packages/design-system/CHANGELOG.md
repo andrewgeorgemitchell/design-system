@@ -1,3 +1,29 @@
+# v1.6.2 (Sat Sep 17 2022)
+
+### Release Notes
+
+#### Add-auto-deploy ([#8](https://github.com/andrewgeorgemitchell/design-system/pull/8))
+
+### Added
+
+- Auto [Auto](https://intuit.github.io/auto) to manage deploys Closes #7
+
+---
+
+#### 🐛 Bug Fix
+
+- Add-auto-deploy [#8](https://github.com/andrewgeorgemitchell/design-system/pull/8) ([@andrewgeorgemitchell](https://github.com/andrewgeorgemitchell))
+
+#### ⚠️ Pushed to `main`
+
+- chore(design-system): version design-system ([@andrewgeorgemitchell](https://github.com/andrewgeorgemitchell))
+
+#### Authors: 1
+
+- Andrew Mitchell ([@andrewgeorgemitchell](https://github.com/andrewgeorgemitchell))
+
+---
+
 ## [1.6.1](https://github.com/andrewgeorgemitchell/design-system/compare/v1.6.0...v1.6.1) (2022-06-05)
 
 
