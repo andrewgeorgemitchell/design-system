@@ -5,7 +5,7 @@ export default {
   title: 'Text',
   component: TextComp,
   argTypes: {},
-} as Meta
+} as Meta<typeof TextComp>
 
 const TemplateText: Story<TextProps> = (args) => <TextComp {...args} />
 

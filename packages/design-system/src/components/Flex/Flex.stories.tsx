@@ -1,4 +1,4 @@
-import { Story, Meta } from '@storybook/react'
+import { Meta, Story } from '@storybook/react'
 
 import { Flex as FlexComp, FlexProps } from './Flex'
 
@@ -25,7 +25,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta<typeof FlexComp>
 
 const TemplateFlex: Story<FlexProps> = (args) => <FlexComp {...args} />
 export const Flex = TemplateFlex.bind({})
