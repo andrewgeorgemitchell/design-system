@@ -5,13 +5,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewgeorgemitchell/design-system.git"
+    "url": "https://github.com/andrewgeorgemitchell/design-system.git"
   },
   "author": "andrewgeorgemitchell",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "workspaces": [
     "packages/*"
   ],
