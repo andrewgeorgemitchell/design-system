@@ -17,7 +17,7 @@ const StyledBase = styled('div', {
   },
   defaultVariant: {
     direction: 'row',
-    justifyContent: 'start',
+    justifyContent: 's tart',
     alignItems: 'start',
     gap: null,
   },

@@ -39,6 +39,7 @@ export const SimpleGrid = ({
   xl = lg || md || sm,
   gap,
   children,
+  ...props
 }: SimpleGridProps) => (
   <StyledBase
     css={{
@@ -74,6 +75,7 @@ export const SimpleGrid = ({
       },
       ...(gap && { gap: `$${gap}` }),
     }}
+    {...props}
   >
     {children}
   </StyledBase>
