@@ -1,5 +1,19 @@
 # (Sat Sep 17 2022)
 
+#### 🐛 Bug Fix
+
+- `@andrewgeorgemitchell/design-system@1.6.3`
+  - Working PR [#6](https://github.com/andrewgeorgemitchell/design-system/pull/6) ([@andrewgeorgemitchell](https://github.com/andrewgeorgemitchell) [@github-actions[bot]](https://github.com/github-actions[bot]))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- Andrew Mitchell ([@andrewgeorgemitchell](https://github.com/andrewgeorgemitchell))
+
+---
+
+# (Sat Sep 17 2022)
+
 ### Release Notes
 
 #### Add-auto-deploy ([#8](https://github.com/andrewgeorgemitchell/design-system/pull/8))
