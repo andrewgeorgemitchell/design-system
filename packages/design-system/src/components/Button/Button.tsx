@@ -11,7 +11,11 @@ export interface ButtonProps {
 }
 
 export const Button = forwardRef<HTMLButtonElement | null, ButtonProps>(
-  (props, forwardedRef) => (
-    <StyledButtonBase {...props}>{children}</StyledButtonBase>
+  ({ children, ...props }, forwardedRef) => (
+    <StyledButtonBase ref={forwardedRef} {...props}>
+      {children}
+    </StyledButtonBase>
   )
 )
+
+Button.displayName = 'Button'
