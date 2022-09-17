@@ -33,10 +33,14 @@ jobs:
             yarn-deps-${{ hashFiles('yarn.lock') }}
 
       - name: Create Release
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          NPM_TOKEN: ${{ github.token }}
         run: |
           yarn install --frozen-lockfile
           yarn build
-          npx auto shipit
+
+      - uses: auto-it/setup-auto@v1
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          NPM_TOKEN: ${{ github.token }}
+        run: auto shipit
