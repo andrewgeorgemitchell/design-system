@@ -32,6 +32,9 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
 
+      - name: Lint & Test
+        run: yarn lint
+
       - uses: auto-it/setup-auto@v1
 
       - name: Release
