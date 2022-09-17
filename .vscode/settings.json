@@ -1,26 +1,47 @@
 {
-  "eslint.run": "onSave",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.prettier": true
-  },
-  "eslint.workingDirectories": [
-    "./packages/design-system"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Editor Settings
+  "editor.inlineSuggest.enabled": true,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "javascript.validate.enable": true,
-  "typescript.validate.enable": true,
-  "cSpell.words": [
-    "vite",
-    "vitejs"
-  ],
-  "files.eol": "\n"
+  "explorer.confirmDelete": false,
+  "workbench.editor.labelFormat": "short",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.tabs.enabled": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "window.zoomLevel": 1,
+  // Lint/Format on Save
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Extensions
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  // Spell Checker
+  "cSpell.userWords": ["languager"],
+  "editor.stickyScroll.enabled": true
 }
