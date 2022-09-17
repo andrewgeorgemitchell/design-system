@@ -1,5 +1,7 @@
 name: Release Canary For PR
 
+permissions: write-all
+
 on: [pull_request]
 
 jobs:
@@ -33,7 +35,7 @@ jobs:
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-          NPM_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          NPM_TOKEN: ${{ github.token }}
         run: |
           yarn install --frozen-lockfile
           yarn build
