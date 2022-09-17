@@ -27,6 +27,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@radix-ui/react-hover-card": "^0.1.5",
+    "@react-aria/button": "^3.5.0",
     "@stitches/react": "^1.2.8"
   },
   "devDependencies": {

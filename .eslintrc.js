@@ -34,5 +34,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'no-shadow': 'off',
     'no-unused-vars': 'off',
+    'react/button-has-type': 'off',
   },
 }
