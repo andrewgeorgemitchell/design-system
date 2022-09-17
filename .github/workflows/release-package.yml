@@ -39,8 +39,10 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
 
+      - uses: auto-it/setup-auto@v1
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ github.token }}
-        run: yarn auto shipit
+        run: auto shipit
