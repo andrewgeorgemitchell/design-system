@@ -8,7 +8,7 @@
     "url": "git+https://github.com/andrewgeorgemitchell/design-system.git"
   },
   "author": "andrewgeorgemitchell",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },

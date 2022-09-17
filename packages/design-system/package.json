@@ -4,6 +4,7 @@
   "publishConfig": {
     "@andrewgeorgemitchell:registry": "https://npm.pkg.github.com"
   },
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
