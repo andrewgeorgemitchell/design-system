@@ -36,8 +36,8 @@ jobs:
 
       - name: Create Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          NPM_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
           yarn install --frozen-lockfile
           yarn build

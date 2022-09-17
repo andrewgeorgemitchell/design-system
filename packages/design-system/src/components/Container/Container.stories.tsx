@@ -1,4 +1,4 @@
-import { ComponentMeta } from '@storybook/react'
+import { Story, Meta } from '@storybook/react'
 import { SimpleGrid } from '~/components'
 
 import { Container as ContainerComp, ContainerProps } from './Container'
@@ -7,9 +7,11 @@ export default {
   title: 'Container',
   component: ContainerComp,
   argTypes: {},
-} as ComponentMeta<typeof ContainerComp>
+} as Meta
 
-const TemplateContainer = (args: ContainerProps) => <ContainerComp {...args} />
+const TemplateContainer: Story<ContainerProps> = (args) => (
+  <ContainerComp {...args} />
+)
 export const Container = TemplateContainer.bind({})
 
 Container.args = {
