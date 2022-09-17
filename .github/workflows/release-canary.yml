@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          # Ensure that git uses your token with admin access to the repo
-          token: ${{ secrets.ADMIN_TOKEN }}
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
