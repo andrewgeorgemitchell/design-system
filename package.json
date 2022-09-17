@@ -2,13 +2,16 @@
   "name": "frontend-utils",
   "description": "Monorepo for frontend utils",
   "version": "1.0.0",
+  "author": "andrewgeorgemitchell",
+  "license": "MIT",
   "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/andrewgeorgemitchell/design-system.git"
   },
-  "author": "andrewgeorgemitchell",
-  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
