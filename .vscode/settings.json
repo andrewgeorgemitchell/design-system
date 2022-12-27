@@ -43,5 +43,6 @@
   },
   // Spell Checker
   "cSpell.userWords": ["languager"],
-  "editor.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "cSpell.words": ["andrewgeorgemitchell"]
 }

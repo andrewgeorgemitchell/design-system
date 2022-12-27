@@ -1,0 +1,43 @@
+{
+  "name": "@andrewgeorgemitchell/eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Extendable eslint config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewgeorgemitchell/design-system.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "andrewgeorgemitchell",
+  "bugs": {
+    "url": "https://github.com/andrewgeorgemitchell/design-system/issues"
+  },
+  "homepage": "https://github.com/andrewgeorgemitchell/design-system#readme",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"eslint-config: No Build Needed\""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.7.4",
+    "yarn": "^1.22.19"
+  },
+  "peerDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.7.4"
+  }
+}
