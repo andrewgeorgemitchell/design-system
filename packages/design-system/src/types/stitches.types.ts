@@ -8,6 +8,7 @@ export type IntrinsicElementsKeys = keyof JSX.IntrinsicElements
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type As = React.ElementType<any> | IntrinsicElementsKeys
 
-export type VariantProps<T> = Stitches.VariantProps<T>
+export type VariantProps<T extends { [key: string]: any; [key: symbol]: any }> =
+  Stitches.VariantProps<T>
 
 export type CSS = Stitches.CSS<typeof config>

@@ -13,23 +13,36 @@ export const globalStyles = globalCss({
   body: {
     boxSizing: 'border-box',
     fontFamily: 'Roboto',
+    lineHeight: 1.5,
+    WebkitFontSmoothing: 'antialiased',
   },
-  '*': {
+  // Use a more-intuitive box-sizing model.
+  '*, *::before, *::after': {
     boxSizing: 'border-box',
   },
-  h1: {
+  // Remove default margin
+  '*': {
     margin: 0,
   },
-  h2: {
-    margin: 0,
+  // Allow percentage-based heights in the application
+  'html, body': {
+    height: '100%',
   },
-  h3: {
-    margin: 0,
+  // Improve media defaults
+  'img, picture, video, canvas, svg': {
+    display: 'block',
+    maxWidth: '100%',
   },
-  h4: {
-    margin: 0,
+  // Remove built-in form typography styles
+  'input, button, textarea, select': {
+    font: 'inherit',
   },
-  p: {
-    margin: 0,
+  // Avoid text overflows
+  'p, h1, h2, h3, h4, h5, h6': {
+    overflowWrap: 'break-word',
+  },
+  // Create a root stacking context
+  '#root, #__next': {
+    isolation: 'isolate',
   },
 })

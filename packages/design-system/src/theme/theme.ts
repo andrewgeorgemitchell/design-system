@@ -1,7 +1,7 @@
 import { createStitches } from '@stitches/react'
 import type * as Stitches from '@stitches/react'
 
-export const { styled, css, getCssText, config } = createStitches({
+export const { styled, css, getCssText, config, createTheme } = createStitches({
   theme: {
     colors: {
       white: '#ffffff',
@@ -148,7 +148,14 @@ export const { styled, css, getCssText, config } = createStitches({
     },
     borderWidths: {},
     borderStyles: {},
-    radii: {},
+    radii: {
+      base: '3px',
+      1: '$base',
+      2: 'calc($base * 2)',
+      3: 'calc($base * 3)',
+      4: 'calc($base * 4)',
+      round: '50%',
+    },
     shadows: {
       0: '0.0px 0.0px 0.0px hsl(0deg 0% 0% / 0.50)',
       1: '12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 100px 100px 80px rgba(0, 0, 0, 0.07)',
@@ -186,6 +193,14 @@ export const { styled, css, getCssText, config } = createStitches({
     marginY: (value: Stitches.PropertyValue<'marginTop'>) => ({
       marginTop: value,
       marginBottom: value,
+    }),
+    paddingX: (value: Stitches.PropertyValue<'paddingLeft'>) => ({
+      paddingLeft: value,
+      paddingRight: value,
+    }),
+    paddingY: (value: Stitches.PropertyValue<'paddingTop'>) => ({
+      paddingTop: value,
+      paddingBottom: value,
     }),
   },
 })

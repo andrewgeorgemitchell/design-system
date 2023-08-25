@@ -19,6 +19,7 @@
     "commit": "cz",
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
+    "storybook": "lerna run --scope @andrewgeorgemitchell/design-system storybook",
     "build": "lerna run --scope @andrewgeorgemitchell/design-system build",
     "lint": "eslint './**/*.tsx' './**/*.ts' './**/*.js' './**/*.json'"
   },
